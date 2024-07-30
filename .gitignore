@@ -1,0 +1,9 @@
+
+.DS_Store
+*.local
+/ExcaliburJS/dist
+/ExcaliburJS/dist-ssr
+/ExcaliburJS/node_modules
+/ExcaliburJS/test/images/actual.png
+/ExcaliburJS/test/images/diff-*.png
+/ExcaliburJS/coverage
