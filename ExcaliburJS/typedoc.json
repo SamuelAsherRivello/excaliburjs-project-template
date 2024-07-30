@@ -1,0 +1,7 @@
+{
+  "entryPoints": ["src/scripts"],
+  "entryPointStrategy": "expand",
+  "out": "dist/documentation",
+  "tsconfig": "tsconfig.json",
+  "exclude": ["**/node_modules/**", "**/dist/**"]
+}
