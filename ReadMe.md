@@ -2,6 +2,8 @@
 
 This repo is ideal for new [ExcaliburJS](https://excaliburjs.com/) projects using [TypeScript](https://www.typescriptlang.org/) and [Vite](https://vitejs.dev/).
 
+Read a full [ExcaliburJS Project Template](https://samuel-asher-rivello.medium.com/html5-07-excaliburjs-project-template-c150fabaa027) Medium article about this repo.
+
 <figure>
 <img alt="screenshot"
 src="./ExcaliburJS/documentation/Screenshot01.png"
