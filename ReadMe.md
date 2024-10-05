@@ -192,4 +192,4 @@ Here are some resources which may be helpful with HTML5 game projects using Exca
 
 **License**
 
-Provided as-is under MIT License | Copyright © 2024 Rivello Multimedia Consulting, LLC
+Provided as-is under <a href="./LICENSE">MIT License</a> | Copyright ™ & © 2006 - 2024 Rivello Multimedia Consulting, LLC
