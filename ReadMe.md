@@ -34,6 +34,7 @@ width = "600"
 
 1. Download this repo (_.zip or _.git)
 2. Open the `ExcaliburJS` folder in the command line:
+   - Use Node.js 22.12 or newer (Node.js 22 is selected by `.nvmrc`).
 3. Install dependencies:
    - Run `npm install` to download and install dependencies.
 4. Build the project:
