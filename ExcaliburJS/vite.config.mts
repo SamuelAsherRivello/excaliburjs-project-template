@@ -30,6 +30,8 @@ export default defineConfig({
     },
   },
   build: {
+    // Preserve the browser targets used before the Vite 7 upgrade.
+    target: ['es2020', 'edge88', 'firefox78', 'chrome87', 'safari14'],
     outDir: 'dist',
     chunkSizeWarningLimit: 1000, // in kBs
     rollupOptions: {
@@ -52,9 +54,9 @@ export default defineConfig({
       '@client': path.resolve(__dirname, './src/scripts/client'),
     },
     coverage: {
+      include: ['src/scripts/client/**/*.ts'],
       reporter: ['text', 'json', 'html'],
       exclude: [
-        './*.{js,ts,mts}', // Exclude files directly in the project root
         '**/*.d.ts', // Exclude all files ending with "d.ts"
         'node_modules/**',
         'dist/**',
